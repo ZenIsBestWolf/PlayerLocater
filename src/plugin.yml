@@ -1,0 +1,17 @@
+name: PlayerLocater
+version: 1.2
+author: Zen Wolf
+main: me.zenisbestwolf.playerlocater.Main
+description: Find out where a player is with a command.
+default: op
+api-version: 1.15
+permissions:
+    playerlocator.locate:
+        description: "Allows players to use /whereis"
+        default: op
+commands:
+    whereis:
+        aliases: [donde]
+        description: Locates the specified player.
+        usage: "/<command> [target]"
+        permission: playerlocater.locate
