@@ -1,7 +1,8 @@
-package me.zenisbestwolf.playerlocater;
+package me.zenisbestwolf.PlayerLocater;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import me.zenisbestwolf.playerlocater.commands.*;
+
+import me.zenisbestwolf.PlayerLocater.commands.LocateCommand;
 
 public class Main extends JavaPlugin {
 	
